@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-Napisati fju koja za dati niz brojeva izracunava i prikazuje da li ima vise trocifrenih ili dvocifrenih brojeva. (koristiti for)
+
 
 
 <?php

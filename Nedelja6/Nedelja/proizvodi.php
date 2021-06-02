@@ -14,7 +14,7 @@
 </head>
 <body>
     <?php 
-        proizvod ('GRAMOFON', 'gramofon.jpg', '19999', '3600' );
+        proizvod ('GRAMOFON', 'gramofon.jpg', '19999', '600' );
         proizvod ('LUSTER', 'luster.jpg', '14999', '0' );
         proizvod ('STOLICA', 'stolica.jpg', '11560', '2200' );
     ?>
