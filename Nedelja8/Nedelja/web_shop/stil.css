@@ -1,0 +1,45 @@
+
+li {display:inline-block;
+    margin:3px;
+}
+ul {
+    
+    position:fixed;
+    left:85%;
+    top:5px;
+    
+}
+.header {
+    text-align: center; 
+    background-color:rgb(215, 247, 236);
+    
+    position:fixed;
+    top:0px;
+    width: 100%;
+}
+.proizvod {
+    border:3px solid black; 
+    width:300px;
+    height: 400px;
+    display:inline-block;
+    margin-left:30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+
+}
+img {
+    width:200px;
+}
+.footer{
+position:fixed;
+bottom: 0px;
+width: 100%;
+text-align: center; 
+color: rgb(23, 24, 23); 
+background-color:rgb(215, 247, 236);
+}
+.grupe{
+    margin-top: 80px;
+    
+}

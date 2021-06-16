@@ -7,10 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-<!-- Napisati fju koja za dati niz koji predstavlja kolika je uspesnost uradjenih domacih po danima ['ponedeljak'=>27, 'utorak'=>29, 'cetvrtak'>28, 'petak=>28] pronalazi:
-Koji dan je najuspesniji
-Kolika je prosecna uspesnost
-Razliku izmedju najbolje i najgore uspesnosti -->
 
 
 <?php

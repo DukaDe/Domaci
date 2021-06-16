@@ -23,6 +23,7 @@
         echo"<br>";
         if (ne_sadrzi_nule ($niz)===true) echo "nema nule";
         else echo "ima nule";
+        
 
 
     ?>
