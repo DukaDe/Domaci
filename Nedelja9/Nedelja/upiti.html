@@ -1,0 +1,22 @@
+
+
+
+
+INSERT INTO `proizvodi`(`barkod`, `naziv`, `cena`) VALUES (789, 'paradajz', 200), (776, 'crni luk', 50), (761, 'beli luk', 80)
+
+INSERT INTO `prodaja`(`id`, `barkod`, `kolicina`, `cena`, `datum`) VALUES (NULL, 789, 50, 200, "2021-06-16"), (NULL, 789, 20, 200, "2021-06-17"), (NULL, 789, 40, 250, "2021-06-17"), (NULL, 789, 10, 220, "2021-06-17"), (NULL, 776, 30, 50, "2021-05-01"), (NULL, 761, 50, 100, "2021-06-17"), (NULL, 761, 40, 100, "2021-06-17"), (NULL, 761, 10, 80, "2021-05-01")
+
+DELETE FROM `prodaja` WHERE barkod=789 AND datum="2021-06-16"
+
+UPDATE `prodaja` SET `cena`= cena=cena*0.1+cena WHERE datum="2021-06-17"
+
+SELECT barkod FROM `prodaja` WHERE datum="2021-05-01"
+
+SELECT DISTINCT (barkod) FROM `prodaja` WHERE datum="2021-05-01"
+
+SELECT sum(kolicina) AS ukupna_kolicina, datum 
+FROM `prodaja`
+GROUP BY datum
+
+POSLEDNJA DVA UPITA NISAM USPEO DA RESIM...
+
